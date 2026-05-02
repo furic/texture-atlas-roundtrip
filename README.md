@@ -1,5 +1,11 @@
 # texture-atlas-roundtrip
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-D97757.svg)](https://claude.com/claude-code)
+[![GitHub stars](https://img.shields.io/github/stars/furic/texture-atlas-roundtrip?style=flat&logo=github)](https://github.com/furic/texture-atlas-roundtrip/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/furic/texture-atlas-roundtrip/pulls)
+
 A Claude Code skill for splitting packed UV texture atlases into per-island PNGs, editing each piece independently in any AI image tool (ChatGPT, DALL-E, Stable Diffusion, Photopea, etc.), and compositing the edits back at exact pixel coordinates without UV bleed.
 
 Built for retexturing 3D character clothing/accessories piece-by-piece while keeping the rest of the atlas untouched.
